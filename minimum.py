@@ -6,4 +6,4 @@ for i in range(len(s1)):
     else:
         if s1[i] != s2[i]:
             cost_diff+=1
-            print(cost_diff)
+        print(cost_diff)
