@@ -1,9 +1,9 @@
-str1,str2=input().split()
-cost_diff=abs(len(str1)-len(str2))
-for i in range(len(str1)):
-    if len(str2)==1 and str2[i] in str1:
+s1,s2=input().split()
+cost_diff=abs(len(s1)-len(s2))
+for i in range(len(s1)):
+    if len(s2)==1 and s2[i] in s1:
         break
     else:
-        if str1[i] != str2[i]:
+        if s1[i] != s2[i]:
             cost_diff+=1
             print(cost_diff)
